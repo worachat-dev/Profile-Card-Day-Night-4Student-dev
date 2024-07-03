@@ -113,7 +113,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ### Acknowledgments
 
-This project was inspired by the [Profile Card with Tooltip](https://github.com/bedimcode/profile-card-with-tooltip) created by Bedimcode. The original design provided a foundational idea which was further adapted and enhanced in this project.
+This project was inspired by the [Profile Card with Tooltip](https://github.com/RedEdge967/Profile-Card) created by Chandula Janith (RedEdge967). The original design provided a foundational idea which was further adapted and enhanced in this project.
 
 ---
 
