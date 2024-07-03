@@ -2,8 +2,8 @@
 
 Welcome to the **Profile Card with Day/Night Theme** project! This repository showcases a responsive and modern profile card with an integrated theme switcher between a "Black" and "White" theme. The design offers a sleek and elegant look, enhanced by a tooltip for social media links.
 
-![Profile Card Screenshot - Dark Theme](https://github.com/worachat-dev/profile-card-day-night-4student/screenshot01.png)
-![Profile Card Screenshot - Light Theme](https://github.com/worachat-dev/profile-card-day-night-4student/screenshot02.png)
+![Profile Card Screenshot - Dark Theme](https://raw.githubusercontent.com/worachat-dev/profile-card-day-night-4student/main/screenshot01.png)
+![Profile Card Screenshot - Light Theme](https://raw.githubusercontent.com/worachat-dev/profile-card-day-night-4student/main/screenshot02.png)
 
 ### Table of Contents
 
@@ -123,8 +123,8 @@ Feel free to customize and enhance this profile card according to your needs. If
 
 ### Screenshot Links
 
-- **[Screenshot - Dark Theme](https://github.com/worachat-dev/profile-card-day-night-4student/screenshot01.png)**
-- **[Screenshot - Light Theme](https://github.com/worachat-dev/profile-card-day-night-4student/screenshot02.png)**
+- **[Screenshot - Dark Theme](https://raw.githubusercontent.com/worachat-dev/profile-card-day-night-4student/main/screenshot01.png)**
+- **[Screenshot - Light Theme](https://raw.githubusercontent.com/worachat-dev/profile-card-day-night-4student/main/screenshot02.png)**
 
 ---
 
