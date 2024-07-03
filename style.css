@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Black Theme */
+.black-theme {
+    background: #161623;
+}
+
+.black-theme:before {
+    content: "";
+    position: absolute;
+    left: 40%;
+    bottom: -40%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(135deg, #FF5722, #FF9800);
+    border-radius: 50%;
+}
+
+.black-theme .card {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+/* White Theme */
+.white-theme {
+    background: linear-gradient(135deg, #3fe2f2 0%, #43dbc0 16%, #29b7f2 49%, #3cabe8 86%);
+}
+
+.white-theme:before {
+    content: "";
+    position: absolute;
+    left: 40%;
+    bottom: -40%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(135deg, #3fe2f2 0%, #43dbc0 24%, #3cabe8 91%);
+    border-radius: 50%;
+}
+
+.white-theme .card {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+/* Common Card Styles */
+.card {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.card__top {
+    height: 155px;
+    position: relative;
+}
+
+.card__top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile__photo {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 7px solid rgba(0, 0, 0, 0.35);
+}
+
+.white-theme .profile__photo img {
+    border: 8px solid rgba(255, 255, 255, 0.55);
+}
+
+.card__content {
+    text-align: center;
+    padding: 5em 2.5em;
+}
+
+.card__content h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card__content h3 {
+    font-weight: 400;
+    margin: 5px 0 30px;
+    font-size: 16px;
+}
+
+.card__content p {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card__content p span {
+    margin-right: 10px;
+}
+
+.card__content p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card__content p a:hover {
+    text-decoration: underline;
+}
+
+.card a.button {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 9px 30px 10px;
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.card a.button:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Theme Switch Button */
+#switch {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#switch i {
+    font-size: 1.5rem;
+}
+
+#switch:hover i {
+    animation: rotation 1.5s linear infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
