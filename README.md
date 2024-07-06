@@ -109,7 +109,7 @@ Contributions are what make the open-source community such an amazing place to b
 
 ## Authors
 
-- **Worachat W, Dev.** - *Game Design & Dev. 2024*
+- **Worachat W, Dev.** - *Data Science, Engineering & Full Stack Dev. 2024*
 
 ## License
 
